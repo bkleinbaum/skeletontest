@@ -162,6 +162,20 @@ $("#infinity").click(function(event) {
    }
 });
 
+$("#clearAll").click(function(event) {
+    event.preventDefault();
+    map.removeLayer(toInfinty);
+    map.removeLayer(toTen);
+    map.removeLayer(toFive);
+    map.removeLayer(toTwentyFive);
+    map.removeLayer(to1000);
+    $("#infinity").css({'background-color':'#B1ACBD'});
+    $("#tenThousand").css({'background-color':'#B1ACBD'});
+    $("#fiveThousand").css({'background-color':'#B1ACBD'});
+    $("#twentyFiveHundred").css({'background-color':'#B1ACBD'});
+    $("#thousand").css({'background-color':'#B1ACBD'});
+});
+
 
 
 
