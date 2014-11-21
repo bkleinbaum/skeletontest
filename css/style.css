@@ -1,0 +1,33 @@
+/*body {
+	margin: 0;
+}*/
+
+#map {
+	
+	height: 75vh;
+}
+
+
+ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+#thousand, #twentyFiveHundred, #fiveThousand, #tenThousand, #infinity {
+    float: left;
+    width: 17.74%;
+    text-decoration: none;
+    color: white;
+    background-color: #B1ACBD;
+    padding: 0.2em 0.6em;
+    border: 1px solid white;
+  
+
+/*#thousand, #twentyFiveHundred, #fiveThousand, #tenThousand, #infinity a:hover {
+    background-color: fuchsia;
+}
+*/
