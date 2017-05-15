@@ -4,8 +4,9 @@ var map = L.map('map');
 map.setView([40.681339, -73.96302], 12
 	);
 
+L.mapbox.accessToken = 'pk.eyJ1IjoiYms3NDEiLCJhIjoiZFNVcTNvdyJ9.h8G4i4ib7PicRCiejvZW6g';
 
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png', {
+L.tileLayer('https://{s}.tiles.mapbox.com/v3/bk741.m44ejghn/{z}/{x}/{y}.png', {
     maxZoom: 18
 }).addTo(map)
 
